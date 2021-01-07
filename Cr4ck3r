@@ -142,7 +142,7 @@ def pilih_masuk():
 	elif msuk =="0" or msuk =="00":
 		keluar()
 	else:
-		print"\033[1;97m[\033[1;91m!\033[1;97m] Ngetik apaan lo pepek?:v"
+		print"\033[1;97m[\033[1;91m!\033[1;97m] Salah Monyet"
 		pilih_masuk()
 		
 #####LOGIN_COOKIE#####
