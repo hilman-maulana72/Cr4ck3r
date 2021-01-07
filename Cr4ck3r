@@ -118,18 +118,18 @@ def masuk():
 	os.system('clear')
 	print logo
 	print 50* "\033[1;94m─"
-	print "\033[1;97m{\033[1;92m🌈\033[1;97m} Login Via Token Facebook"
-	print "\033[1;97m{\033[1;92m🌈\033[1;97m} Ambil Token Download Token App"
-	print "\033[1;97m{\033[1;92m🌈\033[1;97m} Ambil Token Dari Link"
-	print "\033[1;97m{\033[1;92m🌈\033[1;97m} Login Via Token Facebook"
-	print "\033[1;97m{\033[1;91m🌈\033[1;97m} Keluar"
+	print "\033[1;97m{\033[1;92m[1]\033[1;97m} Login Via Token Facebook"
+	print "\033[1;97m{\033[1;92m[2]\033[1;97m} Ambil Token Download Token App"
+	print "\033[1;97m{\033[1;92m[2]\033[1;97m} Ambil Token Dari Link"
+	print "\033[1;97m{\033[1;92m[3]\033[1;97m} Login Via Token Facebook"
+	print "\033[1;97m{\033[1;91m[4]\033[1;97m} Keluar"
 	print 50* "\033[1;94m─"
 	pilih_masuk()
 
 def pilih_masuk():
-	msuk = raw_input("\033[1;90m︻デ═一▸ Pilih 1,2,3,4 ! \033[91m:\033[1;92m ")
+	msuk = raw_input("\033[1;90m︻デ═一▸ Pilih 1,2,3,4 ? \033[91m:\033[1;92m ")
 	if msuk =="":
-		print"\033[1;97m[\033[1;91m!\033[1;97m] Ngetik apaan lo pepek?:v"
+		print"\033[1;97m[\033[1;91m!\033[1;97m] Salah Monyet"
 		pilih_masuk()
 	elif msuk =="1" or msuk =="01":
 		tokenz()
